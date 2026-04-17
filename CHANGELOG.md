@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/entwico/zod-conf/compare/v1.1.1...v1.1.2) (2026-04-17)
+
+
+### Bug Fixes
+
+* update license ([670a1f3](https://github.com/entwico/zod-conf/commit/670a1f3efcc9bb0c79c14041039e65a9bb31ca29))
+
 ## [1.1.1](https://github.com/smnbbrv/zod-conf/compare/v1.1.0...v1.1.1) (2026-02-23)
 
 
