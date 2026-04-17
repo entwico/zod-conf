@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "Type-safe configuration management with Zod schemas and environment variables",
   "license": "MIT",
-  "author": "smnbbrv",
+  "author": "entwico GmbH",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -31,12 +31,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smnbbrv/zod-conf.git"
+    "url": "https://github.com/entwico/zod-conf"
   },
-  "bugs": {
-    "url": "https://github.com/smnbbrv/zod-conf/issues"
-  },
-  "homepage": "https://github.com/smnbbrv/zod-conf#readme",
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
     "clean": "rm -rf dist",
