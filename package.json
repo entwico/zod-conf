@@ -3,7 +3,7 @@
   "version": "1.1.1",
   "description": "Type-safe configuration management with Zod schemas and environment variables",
   "license": "MIT",
-  "author": "entwico GmbH",
+  "author": "admin@entwico.com",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
