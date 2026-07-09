@@ -1,4 +1,4 @@
-import { ZodObject, object, type ZodRawShape, type ZodType, type infer as ZodInfer } from 'zod';
+import { type infer as ZodInfer, ZodObject, type ZodRawShape, type ZodType, object } from 'zod';
 import { _envMetadata } from './env-metadata.js';
 
 type Env = Record<string, string | undefined>;
@@ -51,24 +51,28 @@ export class ZodConfSchema<T extends ZodRawShape> {
     const value = env[envKey];
 
     switch (envType) {
-      case 'string':
+      case 'string': {
         return value;
-      case 'number':
+      }
+      case 'number': {
         return value ? Number(value) : undefined;
-      case 'boolean':
-        return value === 'true' ? true : value === 'false' ? false : undefined;
+      }
+      case 'boolean': {
+        return value === 'true' ? true : (value === 'false' ? false : undefined);
+      }
       case 'enum': {
         const numValue = Number(value);
 
         // guess if enum is number-based
-        if (value && !isNaN(numValue) && Number.isInteger(numValue)) {
+        if (value && Number.isSafeInteger(numValue)) {
           return numValue;
         }
 
         return value;
       }
-      default:
+      default: {
         return undefined;
+      }
     }
   }
 

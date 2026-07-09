@@ -1,4 +1,4 @@
-import { strictEqual, deepStrictEqual } from 'node:assert';
+import { deepStrictEqual, strictEqual } from 'node:assert';
 import { test } from 'node:test';
 import zc from './index.js';
 
@@ -296,8 +296,8 @@ test('zod-conf configuration parsing', async (t) => {
       schema.load({
         env: {},
       });
-    } catch (e) {
-      error = e;
+    } catch (error_) {
+      error = error_;
     }
 
     strictEqual(error !== undefined, true);
@@ -393,7 +393,7 @@ test('zod-conf configuration parsing', async (t) => {
     strictEqual(config.plainNested, 'plain');
   });
 
-  await t.test('env proxy preserves non-schema properties and methods', async () => {
+  await t.test('env proxy preserves non-schema properties and methods', () => {
     const envSchema = zc.env('TEST').string();
 
     // test that metadata is stored in WeakMap (we can't directly access it from here)

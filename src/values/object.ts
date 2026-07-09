@@ -1,6 +1,4 @@
-import { type ZodObject } from 'zod';
-import { type ZodRawShape } from 'zod';
-import { object as zobject } from 'zod';
+import { type ZodObject, type ZodRawShape, object as zobject } from 'zod';
 
 /**
  * Creates a nested object schema for grouping related configuration.

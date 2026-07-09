@@ -17,17 +17,17 @@ Not affiliated with the official Zod library.
 ## Installation
 
 ```bash
-npm install zod-conf zod
+npm install @entwico/zod-conf zod
 # or
-yarn add zod-conf zod
+yarn add @entwico/zod-conf zod
 # or
-pnpm add zod-conf zod
+pnpm add @entwico/zod-conf zod
 ```
 
 ## Quick Start
 
 ```typescript
-import zc from 'zod-conf';
+import zc from '@entwico/zod-conf';
 
 // define your configuration schema
 const schema = zc.define({
