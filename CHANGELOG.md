@@ -1,48 +1,47 @@
 ## [1.1.2](https://github.com/entwico/zod-conf/compare/v1.1.1...v1.1.2) (2026-04-17)
 
+## 1.1.3
+
+### Patch Changes
+
+- 7955173: internal: switch release tooling from semantic-release to changesets
 
 ### Bug Fixes
 
-* update license ([670a1f3](https://github.com/entwico/zod-conf/commit/670a1f3efcc9bb0c79c14041039e65a9bb31ca29))
+- update license ([670a1f3](https://github.com/entwico/zod-conf/commit/670a1f3efcc9bb0c79c14041039e65a9bb31ca29))
 
 ## [1.1.1](https://github.com/smnbbrv/zod-conf/compare/v1.1.0...v1.1.1) (2026-02-23)
 
-
 ### Bug Fixes
 
-* disable sourcemaps ([545516c](https://github.com/smnbbrv/zod-conf/commit/545516cd8d6f3522464844d57c5c4d2f50d37c5e))
+- disable sourcemaps ([545516c](https://github.com/smnbbrv/zod-conf/commit/545516cd8d6f3522464844d57c5c4d2f50d37c5e))
 
 # [1.1.0](https://github.com/smnbbrv/zod-conf/compare/v1.0.3...v1.1.0) (2026-02-22)
 
-
 ### Features
 
-* add yaml support ([901e9eb](https://github.com/smnbbrv/zod-conf/commit/901e9ebaf68e276aa7ac380340a7b804f06f6c46))
+- add yaml support ([901e9eb](https://github.com/smnbbrv/zod-conf/commit/901e9ebaf68e276aa7ac380340a7b804f06f6c46))
 
 ## [1.0.3](https://github.com/smnbbrv/zod-conf/compare/v1.0.2...v1.0.3) (2026-02-03)
 
-
 ### Bug Fixes
 
-* update license ([8c4d871](https://github.com/smnbbrv/zod-conf/commit/8c4d87140f38b1633c9d7603a88ba5f9ea30b99f))
+- update license ([8c4d871](https://github.com/smnbbrv/zod-conf/commit/8c4d87140f38b1633c9d7603a88ba5f9ea30b99f))
 
 ## [1.0.2](https://github.com/smnbbrv/zod-conf/compare/v1.0.1...v1.0.2) (2025-09-05)
 
-
 ### Bug Fixes
 
-* fix export for ZodConfSchema ([94ce3fb](https://github.com/smnbbrv/zod-conf/commit/94ce3fb412084dbc9ff748ec71cfac8c13af3dcc))
+- fix export for ZodConfSchema ([94ce3fb](https://github.com/smnbbrv/zod-conf/commit/94ce3fb412084dbc9ff748ec71cfac8c13af3dcc))
 
 ## [1.0.1](https://github.com/smnbbrv/zod-conf/compare/v1.0.0...v1.0.1) (2025-09-05)
 
-
 ### Bug Fixes
 
-* export ZodConfSchema ([3fb932d](https://github.com/smnbbrv/zod-conf/commit/3fb932d896274af665a9a31ce6db008ef9b9d578))
+- export ZodConfSchema ([3fb932d](https://github.com/smnbbrv/zod-conf/commit/3fb932d896274af665a9a31ce6db008ef9b9d578))
 
 # 1.0.0 (2025-09-05)
 
-
 ### Features
 
-* init ([7794d33](https://github.com/smnbbrv/zod-conf/commit/7794d33cc17b11684aa9f599c2b197f39597d705))
+- init ([7794d33](https://github.com/smnbbrv/zod-conf/commit/7794d33cc17b11684aa9f599c2b197f39597d705))
